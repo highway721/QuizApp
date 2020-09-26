@@ -5,15 +5,6 @@
 //  Created by Yusuke Tomatsu on 2020/09/15.
 //  Copyright © 2020 Yusuke Tomatsu. All rights reserved.
 //
-
-//
-//  QuizView.swift
-//  QuizApp
-//
-//  Created by Yusuke Tomatsu on 2020/09/03.
-//  Copyright © 2020 Yusuke Tomatsu. All rights reserved.
-//
-
 import SwiftUI
 //選択肢ABCでそれぞれ+1+2+3って加算する
 //するとa=1　b=2 c=3とかになる
@@ -35,7 +26,7 @@ struct QuizView2: View {
     //答え表示用
     @State private var showAnswer = false
     //答え表示用配列
-    @State private var quizAnswers: [String] = ["赤く塗られた縁石の隣","車両を販売または譲渡します","何らかの理由で交差できません","車線の左側に移動します","65mphより速くない速度","マークされていない横断歩道","ハンドルを両手で握れるように、ハンズフリーデバイスを使用してください","渋滞がなくなるまで交差点に近づかないでください","必要に応じて、減速または停止してから方向転換します","常に"]
+    @State private var quizAnswers: [String] = ["赤く塗られた縁石の隣","車両を販売または譲渡します","何らかの理由で交差できません","車線の左側に移動します","65mphより速くない速度","マークされていない横断歩道","ハンドルを両手で握れるように、ハンズフリーデバイスを使用してください","渋滞がなくなるまで交差点に近づかないでください","必要に応じて、減速または停止してから方向転換します","常に","ヘッドライト","他の運転手があなたが車線に戻るためのスペースを作るとは仮定しない","65 mphより速くない","事故の可能性を高めます","危険物プラカードでマークされたタンクローリー","通りの交通は左に移動します","右折を完了するには、車体を大きく振る場合があります","道路の片側が破線です","車両の側面を見て、何が来るかを確認します","危険を探すために目を動かし続けてください"]
     //次の問題を表示させるための関数(CSVファイル用)
        func nextQuiz(){
         self.currentQuestionIndex = self.currentQuestionIndex + 1
@@ -82,6 +73,7 @@ NavigationView{
         if showAnswer{
             Text(quizAnswers[currentQuestionIndex])
             .foregroundColor(.blue)
+            .fontWeight(.medium)
         }
        Spacer()
            HStack{

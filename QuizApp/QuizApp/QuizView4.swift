@@ -1,8 +1,8 @@
 //
-//  QuizView.swift
+//  QuizView4.swift
 //  QuizApp
 //
-//  Created by Yusuke Tomatsu on 2020/09/03.
+//  Created by Yusuke Tomatsu on 2020/09/15.
 //  Copyright © 2020 Yusuke Tomatsu. All rights reserved.
 //
 
@@ -13,7 +13,7 @@ import SwiftUI
 //マッチしたものを正解とする
 //答えを表示する関数を入れる
 //onTapGestureを閉める実装が必要
-struct QuizView: View {
+struct QuizView4: View {
     //現在の問題番号
     @State private var currentQuestionIndex = 0
     //クイズの数の値−１を入れる(CSVファイル用)
@@ -27,7 +27,7 @@ struct QuizView: View {
     //答え表示用
     @State private var showAnswer = false
     //答え表示用配列
-    @State private var quizAnswers: [String] = ["いかなる状況下で","15 mph","車輪は縁石から18インチ以内にある必要があります","高速道路の交通と同じか、それに近い速度","ロービーム","乗客または郵便のみの積載ゾーン", "赤いライトが点滅している間は停止します","現在の状況で安全な速度よりも速く運転することはできません","5","10〜15秒","100","大型トラックは、ほとんどの乗用車よりも死角が大きくなります","上記の両方","25mph","いかなる状況下で","右に曲げる（道路から離れて)","総車両重量が6000ポンド未満の場合は3軸車両","左側の縁石に最も近い車線","1,000ドルを超える物的損害が発生した場合、または怪我をした場合","乾季の後の最初の雨"]
+    @State private var quizAnswers: [String] = ["横断歩道の標示があってもなくても","曲がる前に自転車道に入っていく","法律に依って禁止されています","荷物か乗客を乗り下りしたりしている","前方に何らかの危険か衝突事故あるかも知れない","前方にある道路の状態が変わっている","時速25マイル","他の車を先に行かせるため","はい、接近する車があれば、それを知ることが出来る","アクセルからあなたの足を離す","運転者が交通の流れよりも早く走るか遅く走る","0.08%","決して許されません","18才以上の年齢の者がその子と一緒に乗っている","常に先行権を与えなければならない","停車し、安全ならば前進する","オートバイの後ろを運転する車は距離を十分にあけなければならない","時速15マイル","大型トラックは完全に止まるまで時間がかかる","ブレーキを踏まずだんだん速度を落とす"]
     //次の問題を表示させるための関数(CSVファイル用)
        func nextQuiz(){
         self.currentQuestionIndex = self.currentQuestionIndex + 1
@@ -100,11 +100,11 @@ NavigationView{
                    .cornerRadius(40)
                }
            }
-       .navigationBarTitle("Quiz set1")
+       .navigationBarTitle("Quiz set4")
        }
       
        .onAppear{
-           self.csvArray = self.loadCSV(fileName: "QuizSet1")
+           self.csvArray = self.loadCSV(fileName: "QuizSet4")
            print(self.csvArray)
            self.quizArray = self.csvArray[self.currentQuestionIndex].components(separatedBy: ",")
 
@@ -112,8 +112,9 @@ NavigationView{
    }
 }
 
-struct QuizView_Previews: PreviewProvider {
+struct QuizView4_Previews: PreviewProvider {
     static var previews: some View {
         QuizView()
     }
 }
+

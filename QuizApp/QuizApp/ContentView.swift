@@ -17,16 +17,16 @@ struct ContentView: View {
                     Image(systemName: "house")
                     Text("ホーム")
             }
-            TextBookView()
-                .tabItem{
-                    Image(systemName:"pencil")
-                    Text("テキスト")
-            }
             SignView()
                 .tabItem{
                     Image(systemName: "car")
                     Text("標識問題")
             }
+//            TestView1()
+//                .tabItem{
+//                    Image(systemName: "hare")
+//                    Text("その他")
+//            }
         }
     }
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A11188F25109C4A00B6BC99 /* QuizSet3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1A11188E25109C4A00B6BC99 /* QuizSet3.csv */; };
+		1A57517B25160CF70025D474 /* TestView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A57517A25160CF70025D474 /* TestView1.swift */; };
+		1A61F03425127D0C001B86BE /* QuizSet4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1A61F03325127D0C001B86BE /* QuizSet4.csv */; };
+		1A61F03625127D73001B86BE /* QuizView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A61F03525127D73001B86BE /* QuizView4.swift */; };
 		1A76EEA72501F1A10018F919 /* SignName.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1A76EEA62501F1A10018F919 /* SignName.csv */; };
 		1A91B306251090AF00D3DB36 /* QuizSet2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1A91B305251090AF00D3DB36 /* QuizSet2.csv */; };
 		1A91B3082510914F00D3DB36 /* QuizView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A91B3072510914F00D3DB36 /* QuizView2.swift */; };
@@ -21,11 +25,14 @@
 		1AF402672501112600C37882 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF402662501112600C37882 /* QuizView.swift */; };
 		1AF4026B250113F300C37882 /* SignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4026A250113F300C37882 /* SignView.swift */; };
 		1AF4026D25013B3900C37882 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF4026C25013B3900C37882 /* HomeView.swift */; };
-		1AFD9C5425066C8F00651F5B /* TextBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD9C5325066C8F00651F5B /* TextBookView.swift */; };
 		1AFD9C582506961B00651F5B /* QuizSet1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1AFD9C572506961B00651F5B /* QuizSet1.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A11188E25109C4A00B6BC99 /* QuizSet3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuizSet3.csv; sourceTree = "<group>"; };
+		1A57517A25160CF70025D474 /* TestView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView1.swift; sourceTree = "<group>"; };
+		1A61F03325127D0C001B86BE /* QuizSet4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuizSet4.csv; sourceTree = "<group>"; };
+		1A61F03525127D73001B86BE /* QuizView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView4.swift; sourceTree = "<group>"; };
 		1A76EEA62501F1A10018F919 /* SignName.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = SignName.csv; sourceTree = "<group>"; };
 		1A91B305251090AF00D3DB36 /* QuizSet2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuizSet2.csv; sourceTree = "<group>"; };
 		1A91B3072510914F00D3DB36 /* QuizView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView2.swift; sourceTree = "<group>"; };
@@ -42,7 +49,6 @@
 		1AF402662501112600C37882 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		1AF4026A250113F300C37882 /* SignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignView.swift; sourceTree = "<group>"; };
 		1AF4026C25013B3900C37882 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		1AFD9C5325066C8F00651F5B /* TextBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBookView.swift; sourceTree = "<group>"; };
 		1AFD9C572506961B00651F5B /* QuizSet1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuizSet1.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,11 +89,14 @@
 				1AF402662501112600C37882 /* QuizView.swift */,
 				1A91B3072510914F00D3DB36 /* QuizView2.swift */,
 				1A91B309251091A300D3DB36 /* QuizView3.swift */,
-				1AFD9C5325066C8F00651F5B /* TextBookView.swift */,
+				1A61F03525127D73001B86BE /* QuizView4.swift */,
 				1AF4026A250113F300C37882 /* SignView.swift */,
+				1A57517A25160CF70025D474 /* TestView1.swift */,
 				1A76EEA62501F1A10018F919 /* SignName.csv */,
 				1AFD9C572506961B00651F5B /* QuizSet1.csv */,
 				1A91B305251090AF00D3DB36 /* QuizSet2.csv */,
+				1A11188E25109C4A00B6BC99 /* QuizSet3.csv */,
+				1A61F03325127D0C001B86BE /* QuizSet4.csv */,
 				1AF402582501109F00C37882 /* Assets.xcassets */,
 				1AF4025D2501109F00C37882 /* LaunchScreen.storyboard */,
 				1AF402602501109F00C37882 /* Info.plist */,
@@ -168,7 +177,9 @@
 				1AFD9C582506961B00651F5B /* QuizSet1.csv in Resources */,
 				1A91B306251090AF00D3DB36 /* QuizSet2.csv in Resources */,
 				1AF4025C2501109F00C37882 /* Preview Assets.xcassets in Resources */,
+				1A11188F25109C4A00B6BC99 /* QuizSet3.csv in Resources */,
 				1AF402592501109F00C37882 /* Assets.xcassets in Resources */,
+				1A61F03425127D0C001B86BE /* QuizSet4.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,11 +191,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A91B3082510914F00D3DB36 /* QuizView2.swift in Sources */,
-				1AFD9C5425066C8F00651F5B /* TextBookView.swift in Sources */,
+				1A61F03625127D73001B86BE /* QuizView4.swift in Sources */,
 				1AF402502501109E00C37882 /* AppDelegate.swift in Sources */,
 				1AF4026D25013B3900C37882 /* HomeView.swift in Sources */,
 				1AF402552501109E00C37882 /* QuizApp.xcdatamodeld in Sources */,
 				1A91B30A251091A300D3DB36 /* QuizView3.swift in Sources */,
+				1A57517B25160CF70025D474 /* TestView1.swift in Sources */,
 				1AF402672501112600C37882 /* QuizView.swift in Sources */,
 				1AF4026B250113F300C37882 /* SignView.swift in Sources */,
 				1AF402572501109E00C37882 /* ContentView.swift in Sources */,
@@ -326,6 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"QuizApp/Preview Content\"";
+				DEVELOPMENT_TEAM = URB8M8BK5S;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = QuizApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -345,6 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"QuizApp/Preview Content\"";
+				DEVELOPMENT_TEAM = URB8M8BK5S;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = QuizApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
